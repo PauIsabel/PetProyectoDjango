@@ -1,0 +1,11 @@
+/*Configuracion Usuario Oracle*/
+alter session set "_ORACLE_SCRIPT" = True;
+create user c##prueba identified by prueba;
+grant connect, resource to c##prueba;
+
+
+/*Configuracion super usuario Panel Administrativo Django*?
+Nombre de usuario (leave blank to use 'duoc'): admin
+Dirección de correo electrónico: admin@admin.cl
+Password: admin
+Password (again): admin

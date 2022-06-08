@@ -1,0 +1,169 @@
+<!-- BLOQUE PADRE -->
+{% extends 'core/base_1.html' %}
+
+<!-- BLOQUE CARGA STATIC -->
+{% load static %}
+
+<!-- BLOQUE PARA CONTENIDO css -->
+{% block css%} {% endblock %}
+
+<!-- BLOQUE PARA CONTENIDO JS -->
+{% block js%} {% endblock %} {% block contenido %}
+<!--INICIO: TERCERA barra -->
+<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light p-3" id="ftco-navbar">
+    <div class="container mt-2 align-content-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+        </button>
+
+        <form action="#" class="searchform order-lg-last mt-3">
+            <div class="form-group d-flex">
+                <!-- <input type="text" class="form-control pl-3" placeholder="Search">
+                <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button> -->
+                <p class="mb-1">Llamanos ahora: <br><i class="icon ion-ios-telephone colorNaranja py-1 px-2 mx-2 text-light" width="25px"></i><span class="font-weight-mid pt-1">+569 1234 5478</span></p>
+            </div>
+        </form>
+
+        <div class="collapse navbar-collapse h5" id="ftco-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-2"><a href="{% url 'index' %}" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item mx-2"><a href="{% url 'nosotros' %}" class="nav-link text-dark">Nosotros</a></li>
+                <li class="nav-item mx-2"><a href="{% url 'galeria' %}" class="nav-link text-dark">Galeria</a></li>
+                <li class="nav-item mx-2"><a href="{% url 'blog' %}" class="nav-link text-dark">Blog</a></li>
+                <li class="nav-item mx-2"><a href="{% url 'tiendafor' %}" class="nav-link text-dark">Tienda</a></li>
+                <li class="nav-item mx-2"><a href="{% url 'contacto1' %}" class="nav-link text-dark">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--FIN: TERCERA barra -->
+
+<!-- INICIO: Banner -->
+<nav aria-label="breadcrumb" class="breadcrumb-wrapper">
+    <div class="container">
+        <ol class="breadcrumb justify-content-center h3">
+            <!-- <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li> -->
+            <li class="breadcrumb-item active aria-current=" page ">BLOG</li>
+        </ol>
+    </div>
+</nav>
+<!-- FIN: Banner -->
+
+<section class="blog-page-section ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-1.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-2.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-3.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-4.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-3.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb--30 ">
+                <div class="blog-post ">
+                    <a href="{% url 'blog_detalle' %} " class="blog-image "><img src="{% static 'core/image/others/blog-1.jpg' %} " alt=" "></a>
+                    <div class="blog-content mt--15 text-center ">
+                        <header>
+                            <h3 class="blog-title "><a href="{% url 'blog_detalle' %} ">Blog image post </a></h3>
+                            <div class="post-meta "><span class="post-author "><i class="fas fa-user "></i><span class="text-gray ">Posteado por : </span> admin</span>
+                            </div>
+                        </header>
+                        <article>
+                            <h3 class="d-none sr-only ">blob-article</h3>
+                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus.</p>
+                        </article>
+                        <div class="blog-btn pb--10 pt--10 "><a href="{% url 'blog_detalle' %} " class="btn btn-rounded btn-outlined--primary ">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt--20 mb--20 ">
+            <div class="pagination-widget ">
+                <div class="site-pagination "><a href="# " class="single-pagination ">|&lt;</a><a href="# " class="single-pagination ">&lt;</a><a href="# " class="single-pagination active ">1</a><a href="# " class="single-pagination ">2</a><a href="#
+                " class="single-pagination ">&gt;</a>
+                    <a href="# " class="single-pagination ">&gt;|</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

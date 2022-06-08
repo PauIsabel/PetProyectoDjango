@@ -1,0 +1,99 @@
+[{
+        "model": "core.marca",
+        "pk": 2,
+        "fields": {
+            "nombre": "Master Dog"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 3,
+        "fields": {
+            "nombre": "Master Cats"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 5,
+        "fields": {
+            "nombre": "Nutrique"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 6,
+        "fields": {
+            "nombre": "Purina"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 7,
+        "fields": {
+            "nombre": "Royal Canin"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 8,
+        "fields": {
+            "nombre": "BilJac"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 9,
+        "fields": {
+            "nombre": "Hills"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 10,
+        "fields": {
+            "nombre": "Eukanuba"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 11,
+        "fields": {
+            "nombre": "Eathborn"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 12,
+        "fields": {
+            "nombre": "BritCare"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 13,
+        "fields": {
+            "nombre": "Nutrience"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 14,
+        "fields": {
+            "nombre": "ProPac"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 15,
+        "fields": {
+            "nombre": "NutraGold"
+        }
+    },
+    {
+        "model": "core.marca",
+        "pk": 16,
+        "fields": {
+            "nombre": "Pedigree"
+        }
+    }
+]
